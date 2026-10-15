@@ -10,7 +10,7 @@ from random import randint, shuffle
 
 
 class Question():
-    "contiene una pregunta, una respuesta correcta y tres incorrectas"
+    "contiene una de las preguntas que se van a realizar, una respuesta correcta y tres incorrectas"
 
 
     def __init__(self, question, right_answer, wrong1, wrong2, wrong3):
